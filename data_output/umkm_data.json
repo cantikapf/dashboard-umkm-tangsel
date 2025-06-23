@@ -1,0 +1,1593 @@
+{
+  "data_lengkap": [
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Agrobisnis",
+      "Mikro": 167,
+      "Kecil": 117,
+      "Total": 284
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Agrobisnis",
+      "Mikro": 191,
+      "Kecil": 83,
+      "Total": 274
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Agrobisnis",
+      "Mikro": 154,
+      "Kecil": 67,
+      "Total": 221
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Agrobisnis",
+      "Mikro": 159,
+      "Kecil": 39,
+      "Total": 198
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Agrobisnis",
+      "Mikro": 110,
+      "Kecil": 54,
+      "Total": 164
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Agrobisnis",
+      "Mikro": 223,
+      "Kecil": 94,
+      "Total": 317
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Agrobisnis",
+      "Mikro": 111,
+      "Kecil": 52,
+      "Total": 163
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Akomodasi",
+      "Mikro": 205,
+      "Kecil": 17,
+      "Total": 222
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Akomodasi",
+      "Mikro": 213,
+      "Kecil": 7,
+      "Total": 220
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Akomodasi",
+      "Mikro": 452,
+      "Kecil": 15,
+      "Total": 467
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Akomodasi",
+      "Mikro": 260,
+      "Kecil": 10,
+      "Total": 270
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Akomodasi",
+      "Mikro": 257,
+      "Kecil": 17,
+      "Total": 274
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Akomodasi",
+      "Mikro": 348,
+      "Kecil": 13,
+      "Total": 361
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Akomodasi",
+      "Mikro": 90,
+      "Kecil": 5,
+      "Total": 95
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Aksesori",
+      "Mikro": 0,
+      "Kecil": 0,
+      "Total": 0
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Aksesori",
+      "Mikro": 0,
+      "Kecil": 0,
+      "Total": 0
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Aksesori",
+      "Mikro": 0,
+      "Kecil": 0,
+      "Total": 0
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Aksesori",
+      "Mikro": 0,
+      "Kecil": 0,
+      "Total": 0
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Aksesori",
+      "Mikro": 0,
+      "Kecil": 0,
+      "Total": 0
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Aksesori",
+      "Mikro": 0,
+      "Kecil": 0,
+      "Total": 0
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Aksesori",
+      "Mikro": 0,
+      "Kecil": 0,
+      "Total": 0
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Ekspedisi",
+      "Mikro": 11,
+      "Kecil": 6,
+      "Total": 17
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Ekspedisi",
+      "Mikro": 3,
+      "Kecil": 2,
+      "Total": 5
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Ekspedisi",
+      "Mikro": 5,
+      "Kecil": 4,
+      "Total": 9
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Ekspedisi",
+      "Mikro": 5,
+      "Kecil": 3,
+      "Total": 8
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Ekspedisi",
+      "Mikro": 6,
+      "Kecil": 0,
+      "Total": 6
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Ekspedisi",
+      "Mikro": 9,
+      "Kecil": 3,
+      "Total": 12
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Ekspedisi",
+      "Mikro": 0,
+      "Kecil": 4,
+      "Total": 4
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Elektronik",
+      "Mikro": 113,
+      "Kecil": 75,
+      "Total": 188
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Elektronik",
+      "Mikro": 84,
+      "Kecil": 39,
+      "Total": 123
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Elektronik",
+      "Mikro": 69,
+      "Kecil": 66,
+      "Total": 135
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Elektronik",
+      "Mikro": 49,
+      "Kecil": 30,
+      "Total": 79
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Elektronik",
+      "Mikro": 33,
+      "Kecil": 38,
+      "Total": 71
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Elektronik",
+      "Mikro": 84,
+      "Kecil": 61,
+      "Total": 145
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Elektronik",
+      "Mikro": 36,
+      "Kecil": 28,
+      "Total": 64
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Farmasi",
+      "Mikro": 214,
+      "Kecil": 159,
+      "Total": 373
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Farmasi",
+      "Mikro": 192,
+      "Kecil": 119,
+      "Total": 311
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Farmasi",
+      "Mikro": 237,
+      "Kecil": 99,
+      "Total": 336
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Farmasi",
+      "Mikro": 148,
+      "Kecil": 74,
+      "Total": 222
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Farmasi",
+      "Mikro": 107,
+      "Kecil": 84,
+      "Total": 191
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Farmasi",
+      "Mikro": 224,
+      "Kecil": 106,
+      "Total": 330
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Farmasi",
+      "Mikro": 66,
+      "Kecil": 69,
+      "Total": 135
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Fashion",
+      "Mikro": 403,
+      "Kecil": 138,
+      "Total": 541
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Fashion",
+      "Mikro": 367,
+      "Kecil": 67,
+      "Total": 434
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Fashion",
+      "Mikro": 754,
+      "Kecil": 103,
+      "Total": 857
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Fashion",
+      "Mikro": 451,
+      "Kecil": 106,
+      "Total": 557
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Fashion",
+      "Mikro": 339,
+      "Kecil": 121,
+      "Total": 460
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Fashion",
+      "Mikro": 552,
+      "Kecil": 112,
+      "Total": 664
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Fashion",
+      "Mikro": 205,
+      "Kecil": 69,
+      "Total": 274
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Furniture",
+      "Mikro": 96,
+      "Kecil": 70,
+      "Total": 166
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Furniture",
+      "Mikro": 98,
+      "Kecil": 38,
+      "Total": 136
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Furniture",
+      "Mikro": 115,
+      "Kecil": 61,
+      "Total": 176
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Furniture",
+      "Mikro": 96,
+      "Kecil": 48,
+      "Total": 144
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Furniture",
+      "Mikro": 100,
+      "Kecil": 18,
+      "Total": 118
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Furniture",
+      "Mikro": 140,
+      "Kecil": 37,
+      "Total": 177
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Furniture",
+      "Mikro": 58,
+      "Kecil": 14,
+      "Total": 72
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Jasa",
+      "Mikro": 901,
+      "Kecil": 766,
+      "Total": 1667
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Jasa",
+      "Mikro": 726,
+      "Kecil": 499,
+      "Total": 1225
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Jasa",
+      "Mikro": 1010,
+      "Kecil": 737,
+      "Total": 1747
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Jasa",
+      "Mikro": 707,
+      "Kecil": 503,
+      "Total": 1210
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Jasa",
+      "Mikro": 562,
+      "Kecil": 508,
+      "Total": 1070
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Jasa",
+      "Mikro": 921,
+      "Kecil": 556,
+      "Total": 1477
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Jasa",
+      "Mikro": 368,
+      "Kecil": 287,
+      "Total": 655
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Konter HP",
+      "Mikro": 137,
+      "Kecil": 57,
+      "Total": 194
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Konter HP",
+      "Mikro": 96,
+      "Kecil": 29,
+      "Total": 125
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Konter HP",
+      "Mikro": 76,
+      "Kecil": 55,
+      "Total": 131
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Konter HP",
+      "Mikro": 79,
+      "Kecil": 20,
+      "Total": 99
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Konter HP",
+      "Mikro": 54,
+      "Kecil": 26,
+      "Total": 80
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Konter HP",
+      "Mikro": 71,
+      "Kecil": 34,
+      "Total": 105
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Konter HP",
+      "Mikro": 42,
+      "Kecil": 17,
+      "Total": 59
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Konveksi",
+      "Mikro": 177,
+      "Kecil": 110,
+      "Total": 287
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Konveksi",
+      "Mikro": 154,
+      "Kecil": 49,
+      "Total": 203
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Konveksi",
+      "Mikro": 373,
+      "Kecil": 82,
+      "Total": 455
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Konveksi",
+      "Mikro": 185,
+      "Kecil": 81,
+      "Total": 266
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Konveksi",
+      "Mikro": 158,
+      "Kecil": 89,
+      "Total": 247
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Konveksi",
+      "Mikro": 223,
+      "Kecil": 96,
+      "Total": 319
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Konveksi",
+      "Mikro": 89,
+      "Kecil": 59,
+      "Total": 148
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Kreatif",
+      "Mikro": 62,
+      "Kecil": 28,
+      "Total": 90
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Kreatif",
+      "Mikro": 27,
+      "Kecil": 15,
+      "Total": 42
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Kreatif",
+      "Mikro": 55,
+      "Kecil": 42,
+      "Total": 97
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Kreatif",
+      "Mikro": 29,
+      "Kecil": 20,
+      "Total": 49
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Kreatif",
+      "Mikro": 40,
+      "Kecil": 20,
+      "Total": 60
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Kreatif",
+      "Mikro": 49,
+      "Kecil": 19,
+      "Total": 68
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Kreatif",
+      "Mikro": 20,
+      "Kecil": 8,
+      "Total": 28
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Kuliner",
+      "Mikro": 1551,
+      "Kecil": 208,
+      "Total": 1759
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Kuliner",
+      "Mikro": 1278,
+      "Kecil": 182,
+      "Total": 1460
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Kuliner",
+      "Mikro": 2174,
+      "Kecil": 198,
+      "Total": 2372
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Kuliner",
+      "Mikro": 2403,
+      "Kecil": 138,
+      "Total": 2541
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Kuliner",
+      "Mikro": 1496,
+      "Kecil": 121,
+      "Total": 1617
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Kuliner",
+      "Mikro": 2876,
+      "Kecil": 158,
+      "Total": 3034
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Kuliner",
+      "Mikro": 918,
+      "Kecil": 91,
+      "Total": 1009
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Lainnya",
+      "Mikro": 2247,
+      "Kecil": 1133,
+      "Total": 3380
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Lainnya",
+      "Mikro": 1997,
+      "Kecil": 801,
+      "Total": 2798
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Lainnya",
+      "Mikro": 2694,
+      "Kecil": 898,
+      "Total": 3592
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Lainnya",
+      "Mikro": 2092,
+      "Kecil": 561,
+      "Total": 2653
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Lainnya",
+      "Mikro": 1626,
+      "Kecil": 597,
+      "Total": 2223
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Lainnya",
+      "Mikro": 2772,
+      "Kecil": 700,
+      "Total": 3472
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Lainnya",
+      "Mikro": 964,
+      "Kecil": 470,
+      "Total": 1434
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Otomotif",
+      "Mikro": 25,
+      "Kecil": 19,
+      "Total": 44
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Otomotif",
+      "Mikro": 14,
+      "Kecil": 12,
+      "Total": 26
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Otomotif",
+      "Mikro": 16,
+      "Kecil": 17,
+      "Total": 33
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Otomotif",
+      "Mikro": 17,
+      "Kecil": 13,
+      "Total": 30
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Otomotif",
+      "Mikro": 12,
+      "Kecil": 5,
+      "Total": 17
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Otomotif",
+      "Mikro": 22,
+      "Kecil": 11,
+      "Total": 33
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Otomotif",
+      "Mikro": 10,
+      "Kecil": 8,
+      "Total": 18
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Pendidikan",
+      "Mikro": 379,
+      "Kecil": 157,
+      "Total": 536
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Pendidikan",
+      "Mikro": 162,
+      "Kecil": 126,
+      "Total": 288
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Pendidikan",
+      "Mikro": 365,
+      "Kecil": 122,
+      "Total": 487
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Pendidikan",
+      "Mikro": 235,
+      "Kecil": 100,
+      "Total": 335
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Pendidikan",
+      "Mikro": 224,
+      "Kecil": 95,
+      "Total": 319
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Pendidikan",
+      "Mikro": 326,
+      "Kecil": 124,
+      "Total": 450
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Pendidikan",
+      "Mikro": 96,
+      "Kecil": 78,
+      "Total": 174
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Perawatan Kesehatan",
+      "Mikro": 78,
+      "Kecil": 40,
+      "Total": 118
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Perawatan Kesehatan",
+      "Mikro": 54,
+      "Kecil": 27,
+      "Total": 81
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Perawatan Kesehatan",
+      "Mikro": 108,
+      "Kecil": 42,
+      "Total": 150
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Perawatan Kesehatan",
+      "Mikro": 83,
+      "Kecil": 28,
+      "Total": 111
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Perawatan Kesehatan",
+      "Mikro": 114,
+      "Kecil": 24,
+      "Total": 138
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Perawatan Kesehatan",
+      "Mikro": 124,
+      "Kecil": 30,
+      "Total": 154
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Perawatan Kesehatan",
+      "Mikro": 25,
+      "Kecil": 20,
+      "Total": 45
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Perikanan",
+      "Mikro": 97,
+      "Kecil": 28,
+      "Total": 125
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Perikanan",
+      "Mikro": 64,
+      "Kecil": 17,
+      "Total": 81
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Perikanan",
+      "Mikro": 87,
+      "Kecil": 29,
+      "Total": 116
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Perikanan",
+      "Mikro": 125,
+      "Kecil": 10,
+      "Total": 135
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Perikanan",
+      "Mikro": 73,
+      "Kecil": 22,
+      "Total": 95
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Perikanan",
+      "Mikro": 143,
+      "Kecil": 25,
+      "Total": 168
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Perikanan",
+      "Mikro": 38,
+      "Kecil": 26,
+      "Total": 64
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Pertanian",
+      "Mikro": 118,
+      "Kecil": 90,
+      "Total": 208
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Pertanian",
+      "Mikro": 137,
+      "Kecil": 66,
+      "Total": 203
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Pertanian",
+      "Mikro": 102,
+      "Kecil": 59,
+      "Total": 161
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Pertanian",
+      "Mikro": 86,
+      "Kecil": 35,
+      "Total": 121
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Pertanian",
+      "Mikro": 78,
+      "Kecil": 43,
+      "Total": 121
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Pertanian",
+      "Mikro": 142,
+      "Kecil": 72,
+      "Total": 214
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Pertanian",
+      "Mikro": 61,
+      "Kecil": 52,
+      "Total": 113
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Sayur Buah",
+      "Mikro": 109,
+      "Kecil": 41,
+      "Total": 150
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Sayur Buah",
+      "Mikro": 109,
+      "Kecil": 27,
+      "Total": 136
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Sayur Buah",
+      "Mikro": 125,
+      "Kecil": 41,
+      "Total": 166
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Sayur Buah",
+      "Mikro": 127,
+      "Kecil": 30,
+      "Total": 157
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Sayur Buah",
+      "Mikro": 84,
+      "Kecil": 27,
+      "Total": 111
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Sayur Buah",
+      "Mikro": 140,
+      "Kecil": 25,
+      "Total": 165
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Sayur Buah",
+      "Mikro": 44,
+      "Kecil": 23,
+      "Total": 67
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Teknologi",
+      "Mikro": 114,
+      "Kecil": 58,
+      "Total": 172
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Teknologi",
+      "Mikro": 67,
+      "Kecil": 27,
+      "Total": 94
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Teknologi",
+      "Mikro": 87,
+      "Kecil": 62,
+      "Total": 149
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Teknologi",
+      "Mikro": 56,
+      "Kecil": 29,
+      "Total": 85
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Teknologi",
+      "Mikro": 47,
+      "Kecil": 34,
+      "Total": 81
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Teknologi",
+      "Mikro": 68,
+      "Kecil": 41,
+      "Total": 109
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Teknologi",
+      "Mikro": 37,
+      "Kecil": 16,
+      "Total": 53
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Toko Sembako",
+      "Mikro": 1863,
+      "Kecil": 305,
+      "Total": 2168
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Toko Sembako",
+      "Mikro": 1642,
+      "Kecil": 268,
+      "Total": 1910
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Toko Sembako",
+      "Mikro": 2383,
+      "Kecil": 306,
+      "Total": 2689
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Toko Sembako",
+      "Mikro": 2173,
+      "Kecil": 189,
+      "Total": 2362
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Toko Sembako",
+      "Mikro": 1343,
+      "Kecil": 170,
+      "Total": 1513
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Toko Sembako",
+      "Mikro": 2627,
+      "Kecil": 220,
+      "Total": 2847
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Toko Sembako",
+      "Mikro": 891,
+      "Kecil": 116,
+      "Total": 1007
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Transportasi",
+      "Mikro": 76,
+      "Kecil": 77,
+      "Total": 153
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Transportasi",
+      "Mikro": 88,
+      "Kecil": 48,
+      "Total": 136
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Transportasi",
+      "Mikro": 52,
+      "Kecil": 45,
+      "Total": 97
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Transportasi",
+      "Mikro": 40,
+      "Kecil": 23,
+      "Total": 63
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Bidang": "Transportasi",
+      "Mikro": 27,
+      "Kecil": 45,
+      "Total": 72
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Transportasi",
+      "Mikro": 68,
+      "Kecil": 70,
+      "Total": 138
+    },
+    {
+      "Kecamatan": "Setu",
+      "Bidang": "Transportasi",
+      "Mikro": 30,
+      "Kecil": 35,
+      "Total": 65
+    }
+  ],
+  "ringkasan_kecamatan": [
+    {
+      "Kecamatan": "Pamulang",
+      "Mikro": 12152,
+      "Kecil": 2607,
+      "Total": 14759,
+      "Jumlah_Bidang": 23
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Mikro": 11493,
+      "Kecil": 3150,
+      "Total": 14643,
+      "Jumlah_Bidang": 23
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Mikro": 9143,
+      "Kecil": 3699,
+      "Total": 12842,
+      "Jumlah_Bidang": 23
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Mikro": 9605,
+      "Kecil": 2090,
+      "Total": 11695,
+      "Jumlah_Bidang": 23
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Mikro": 7763,
+      "Kecil": 2548,
+      "Total": 10311,
+      "Jumlah_Bidang": 23
+    },
+    {
+      "Kecamatan": "Ciputat Timur",
+      "Mikro": 6890,
+      "Kecil": 2158,
+      "Total": 9048,
+      "Jumlah_Bidang": 23
+    },
+    {
+      "Kecamatan": "Setu",
+      "Mikro": 4199,
+      "Kecil": 1547,
+      "Total": 5746,
+      "Jumlah_Bidang": 23
+    }
+  ],
+  "ringkasan_bidang": [
+    {
+      "Bidang": "Lainnya",
+      "Mikro": 14392,
+      "Kecil": 5160,
+      "Total": 19552
+    },
+    {
+      "Bidang": "Toko Sembako",
+      "Mikro": 12922,
+      "Kecil": 1574,
+      "Total": 14496
+    },
+    {
+      "Bidang": "Kuliner",
+      "Mikro": 12696,
+      "Kecil": 1096,
+      "Total": 13792
+    },
+    {
+      "Bidang": "Jasa",
+      "Mikro": 5195,
+      "Kecil": 3856,
+      "Total": 9051
+    },
+    {
+      "Bidang": "Fashion",
+      "Mikro": 3071,
+      "Kecil": 716,
+      "Total": 3787
+    },
+    {
+      "Bidang": "Pendidikan",
+      "Mikro": 1787,
+      "Kecil": 802,
+      "Total": 2589
+    },
+    {
+      "Bidang": "Konveksi",
+      "Mikro": 1359,
+      "Kecil": 566,
+      "Total": 1925
+    },
+    {
+      "Bidang": "Akomodasi",
+      "Mikro": 1825,
+      "Kecil": 84,
+      "Total": 1909
+    },
+    {
+      "Bidang": "Farmasi",
+      "Mikro": 1188,
+      "Kecil": 710,
+      "Total": 1898
+    },
+    {
+      "Bidang": "Agrobisnis",
+      "Mikro": 1115,
+      "Kecil": 506,
+      "Total": 1621
+    },
+    {
+      "Bidang": "Pertanian",
+      "Mikro": 724,
+      "Kecil": 417,
+      "Total": 1141
+    },
+    {
+      "Bidang": "Furniture",
+      "Mikro": 703,
+      "Kecil": 286,
+      "Total": 989
+    },
+    {
+      "Bidang": "Sayur Buah",
+      "Mikro": 738,
+      "Kecil": 214,
+      "Total": 952
+    },
+    {
+      "Bidang": "Elektronik",
+      "Mikro": 468,
+      "Kecil": 337,
+      "Total": 805
+    },
+    {
+      "Bidang": "Perawatan Kesehatan",
+      "Mikro": 586,
+      "Kecil": 211,
+      "Total": 797
+    },
+    {
+      "Bidang": "Konter HP",
+      "Mikro": 555,
+      "Kecil": 238,
+      "Total": 793
+    },
+    {
+      "Bidang": "Perikanan",
+      "Mikro": 627,
+      "Kecil": 157,
+      "Total": 784
+    },
+    {
+      "Bidang": "Teknologi",
+      "Mikro": 476,
+      "Kecil": 267,
+      "Total": 743
+    },
+    {
+      "Bidang": "Transportasi",
+      "Mikro": 381,
+      "Kecil": 343,
+      "Total": 724
+    },
+    {
+      "Bidang": "Kreatif",
+      "Mikro": 282,
+      "Kecil": 152,
+      "Total": 434
+    },
+    {
+      "Bidang": "Otomotif",
+      "Mikro": 116,
+      "Kecil": 85,
+      "Total": 201
+    },
+    {
+      "Bidang": "Ekspedisi",
+      "Mikro": 39,
+      "Kecil": 22,
+      "Total": 61
+    },
+    {
+      "Bidang": "Aksesori",
+      "Mikro": 0,
+      "Kecil": 0,
+      "Total": 0
+    }
+  ],
+  "top_kombinasi": [
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Lainnya",
+      "Mikro": 2694,
+      "Kecil": 898,
+      "Total": 3592
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Lainnya",
+      "Mikro": 2772,
+      "Kecil": 700,
+      "Total": 3472
+    },
+    {
+      "Kecamatan": "Serpong",
+      "Bidang": "Lainnya",
+      "Mikro": 2247,
+      "Kecil": 1133,
+      "Total": 3380
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Kuliner",
+      "Mikro": 2876,
+      "Kecil": 158,
+      "Total": 3034
+    },
+    {
+      "Kecamatan": "Pamulang",
+      "Bidang": "Toko Sembako",
+      "Mikro": 2627,
+      "Kecil": 220,
+      "Total": 2847
+    },
+    {
+      "Kecamatan": "Serpong Utara",
+      "Bidang": "Lainnya",
+      "Mikro": 1997,
+      "Kecil": 801,
+      "Total": 2798
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Toko Sembako",
+      "Mikro": 2383,
+      "Kecil": 306,
+      "Total": 2689
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Lainnya",
+      "Mikro": 2092,
+      "Kecil": 561,
+      "Total": 2653
+    },
+    {
+      "Kecamatan": "Ciputat",
+      "Bidang": "Kuliner",
+      "Mikro": 2403,
+      "Kecil": 138,
+      "Total": 2541
+    },
+    {
+      "Kecamatan": "Pondok Aren",
+      "Bidang": "Kuliner",
+      "Mikro": 2174,
+      "Kecil": 198,
+      "Total": 2372
+    }
+  ],
+  "statistik": {
+    "total_umkm": 79044,
+    "total_mikro": 61245,
+    "total_kecil": 17799,
+    "jumlah_kecamatan": 7,
+    "jumlah_bidang": 23,
+    "rata_rata_per_kecamatan": 11292.0,
+    "rata_rata_per_bidang": 3436.695652173913
+  },
+  "pivot_data": {
+    "Ciputat": {
+      "Agrobisnis": 198,
+      "Akomodasi": 270,
+      "Aksesori": 0,
+      "Ekspedisi": 8,
+      "Elektronik": 79,
+      "Farmasi": 222,
+      "Fashion": 557,
+      "Furniture": 144,
+      "Jasa": 1210,
+      "Konter HP": 99,
+      "Konveksi": 266,
+      "Kreatif": 49,
+      "Kuliner": 2541,
+      "Lainnya": 2653,
+      "Otomotif": 30,
+      "Pendidikan": 335,
+      "Perawatan Kesehatan": 111,
+      "Perikanan": 135,
+      "Pertanian": 121,
+      "Sayur Buah": 157,
+      "Teknologi": 85,
+      "Toko Sembako": 2362,
+      "Transportasi": 63
+    },
+    "Ciputat Timur": {
+      "Agrobisnis": 164,
+      "Akomodasi": 274,
+      "Aksesori": 0,
+      "Ekspedisi": 6,
+      "Elektronik": 71,
+      "Farmasi": 191,
+      "Fashion": 460,
+      "Furniture": 118,
+      "Jasa": 1070,
+      "Konter HP": 80,
+      "Konveksi": 247,
+      "Kreatif": 60,
+      "Kuliner": 1617,
+      "Lainnya": 2223,
+      "Otomotif": 17,
+      "Pendidikan": 319,
+      "Perawatan Kesehatan": 138,
+      "Perikanan": 95,
+      "Pertanian": 121,
+      "Sayur Buah": 111,
+      "Teknologi": 81,
+      "Toko Sembako": 1513,
+      "Transportasi": 72
+    },
+    "Pamulang": {
+      "Agrobisnis": 317,
+      "Akomodasi": 361,
+      "Aksesori": 0,
+      "Ekspedisi": 12,
+      "Elektronik": 145,
+      "Farmasi": 330,
+      "Fashion": 664,
+      "Furniture": 177,
+      "Jasa": 1477,
+      "Konter HP": 105,
+      "Konveksi": 319,
+      "Kreatif": 68,
+      "Kuliner": 3034,
+      "Lainnya": 3472,
+      "Otomotif": 33,
+      "Pendidikan": 450,
+      "Perawatan Kesehatan": 154,
+      "Perikanan": 168,
+      "Pertanian": 214,
+      "Sayur Buah": 165,
+      "Teknologi": 109,
+      "Toko Sembako": 2847,
+      "Transportasi": 138
+    },
+    "Pondok Aren": {
+      "Agrobisnis": 221,
+      "Akomodasi": 467,
+      "Aksesori": 0,
+      "Ekspedisi": 9,
+      "Elektronik": 135,
+      "Farmasi": 336,
+      "Fashion": 857,
+      "Furniture": 176,
+      "Jasa": 1747,
+      "Konter HP": 131,
+      "Konveksi": 455,
+      "Kreatif": 97,
+      "Kuliner": 2372,
+      "Lainnya": 3592,
+      "Otomotif": 33,
+      "Pendidikan": 487,
+      "Perawatan Kesehatan": 150,
+      "Perikanan": 116,
+      "Pertanian": 161,
+      "Sayur Buah": 166,
+      "Teknologi": 149,
+      "Toko Sembako": 2689,
+      "Transportasi": 97
+    },
+    "Serpong": {
+      "Agrobisnis": 284,
+      "Akomodasi": 222,
+      "Aksesori": 0,
+      "Ekspedisi": 17,
+      "Elektronik": 188,
+      "Farmasi": 373,
+      "Fashion": 541,
+      "Furniture": 166,
+      "Jasa": 1667,
+      "Konter HP": 194,
+      "Konveksi": 287,
+      "Kreatif": 90,
+      "Kuliner": 1759,
+      "Lainnya": 3380,
+      "Otomotif": 44,
+      "Pendidikan": 536,
+      "Perawatan Kesehatan": 118,
+      "Perikanan": 125,
+      "Pertanian": 208,
+      "Sayur Buah": 150,
+      "Teknologi": 172,
+      "Toko Sembako": 2168,
+      "Transportasi": 153
+    },
+    "Serpong Utara": {
+      "Agrobisnis": 274,
+      "Akomodasi": 220,
+      "Aksesori": 0,
+      "Ekspedisi": 5,
+      "Elektronik": 123,
+      "Farmasi": 311,
+      "Fashion": 434,
+      "Furniture": 136,
+      "Jasa": 1225,
+      "Konter HP": 125,
+      "Konveksi": 203,
+      "Kreatif": 42,
+      "Kuliner": 1460,
+      "Lainnya": 2798,
+      "Otomotif": 26,
+      "Pendidikan": 288,
+      "Perawatan Kesehatan": 81,
+      "Perikanan": 81,
+      "Pertanian": 203,
+      "Sayur Buah": 136,
+      "Teknologi": 94,
+      "Toko Sembako": 1910,
+      "Transportasi": 136
+    },
+    "Setu": {
+      "Agrobisnis": 163,
+      "Akomodasi": 95,
+      "Aksesori": 0,
+      "Ekspedisi": 4,
+      "Elektronik": 64,
+      "Farmasi": 135,
+      "Fashion": 274,
+      "Furniture": 72,
+      "Jasa": 655,
+      "Konter HP": 59,
+      "Konveksi": 148,
+      "Kreatif": 28,
+      "Kuliner": 1009,
+      "Lainnya": 1434,
+      "Otomotif": 18,
+      "Pendidikan": 174,
+      "Perawatan Kesehatan": 45,
+      "Perikanan": 64,
+      "Pertanian": 113,
+      "Sayur Buah": 67,
+      "Teknologi": 53,
+      "Toko Sembako": 1007,
+      "Transportasi": 65
+    }
+  },
+  "metadata": {
+    "last_updated": "2025-06-23T07:12:10.000680",
+    "total_records": 161,
+    "kecamatan_list": [
+      "Ciputat",
+      "Ciputat Timur",
+      "Pamulang",
+      "Pondok Aren",
+      "Serpong",
+      "Serpong Utara",
+      "Setu"
+    ]
+  }
+}

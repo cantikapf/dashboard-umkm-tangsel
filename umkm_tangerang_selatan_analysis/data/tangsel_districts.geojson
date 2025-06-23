@@ -1,0 +1,82 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Serpong",
+        "center": [106.6647, -6.3197]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.6647, -6.3197]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Serpong Utara",
+        "center": [106.6747, -6.2997]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.6747, -6.2997]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ciputat",
+        "center": [106.7147, -6.3297]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7147, -6.3297]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ciputat Timur",
+        "center": [106.7447, -6.3197]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7447, -6.3197]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pamulang",
+        "center": [106.7347, -6.3497]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7347, -6.3497]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pondok Aren",
+        "center": [106.7147, -6.2797]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7147, -6.2797]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Setu",
+        "center": [106.6847, -6.3397]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.6847, -6.3397]
+      }
+    }
+  ]
+}
