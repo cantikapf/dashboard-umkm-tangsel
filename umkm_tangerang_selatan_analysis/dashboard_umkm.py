@@ -70,8 +70,8 @@ class UMKMDashboard:
     
     
     def create_geomap(self):
-        """Create geographic distribution map"""
-        # Load district coordinates from GeoJSON
+        """Create geographic distribution map with colored districts"""
+        # Load district boundaries from GeoJSON
         try:
             with open('umkm_tangerang_selatan_analysis/data/tangsel_districts.geojson', 'r') as f:
                 districts_data = json.load(f)
@@ -79,67 +79,184 @@ class UMKMDashboard:
             # Fallback to hardcoded coordinates if file not found
             districts_data = {
                 "features": [
-                    {"properties": {"name": "Serpong"}, "geometry": {"coordinates": [106.6647, -6.3197]}},
-                    {"properties": {"name": "Serpong Utara"}, "geometry": {"coordinates": [106.6747, -6.2997]}},
-                    {"properties": {"name": "Ciputat"}, "geometry": {"coordinates": [106.7147, -6.3297]}},
-                    {"properties": {"name": "Ciputat Timur"}, "geometry": {"coordinates": [106.7447, -6.3197]}},
-                    {"properties": {"name": "Pamulang"}, "geometry": {"coordinates": [106.7347, -6.3497]}},
-                    {"properties": {"name": "Pondok Aren"}, "geometry": {"coordinates": [106.7147, -6.2797]}},
-                    {"properties": {"name": "Setu"}, "geometry": {"coordinates": [106.6847, -6.3397]}}
+                    {"properties": {"name": "Serpong", "center": [106.6647, -6.3197]}, "geometry": {"type": "Polygon", "coordinates": [[[106.64, -6.34], [106.69, -6.34], [106.69, -6.29], [106.64, -6.29], [106.64, -6.34]]]}},
+                    {"properties": {"name": "Serpong Utara", "center": [106.6747, -6.2997]}, "geometry": {"type": "Polygon", "coordinates": [[[106.65, -6.32], [106.70, -6.32], [106.70, -6.27], [106.65, -6.27], [106.65, -6.32]]]}},
+                    {"properties": {"name": "Ciputat", "center": [106.7147, -6.3297]}, "geometry": {"type": "Polygon", "coordinates": [[[106.69, -6.35], [106.74, -6.35], [106.74, -6.30], [106.69, -6.30], [106.69, -6.35]]]}},
+                    {"properties": {"name": "Ciputat Timur", "center": [106.7447, -6.3197]}, "geometry": {"type": "Polygon", "coordinates": [[[106.72, -6.34], [106.77, -6.34], [106.77, -6.29], [106.72, -6.29], [106.72, -6.34]]]}},
+                    {"properties": {"name": "Pamulang", "center": [106.7347, -6.3497]}, "geometry": {"type": "Polygon", "coordinates": [[[106.71, -6.37], [106.76, -6.37], [106.76, -6.32], [106.71, -6.32], [106.71, -6.37]]]}},
+                    {"properties": {"name": "Pondok Aren", "center": [106.7147, -6.2797]}, "geometry": {"type": "Polygon", "coordinates": [[[106.69, -6.30], [106.74, -6.30], [106.74, -6.25], [106.69, -6.25], [106.69, -6.30]]]}},
+                    {"properties": {"name": "Setu", "center": [106.6847, -6.3397]}, "geometry": {"type": "Polygon", "coordinates": [[[106.66, -6.36], [106.71, -6.36], [106.71, -6.31], [106.66, -6.31], [106.66, -6.36]]]}}
                 ]
             }
         
-        # Create the map figure
-        fig = go.Figure()
-
-        # Add district markers with UMKM data
-        for district in districts_data['features']:
-            district_name = district['properties']['name']
-            lon, lat = district['geometry']['coordinates']
+        # Create choropleth map using mapbox
+        try:
+            # Prepare data for choropleth
+            district_names = []
+            district_values = []
             
-            # Get UMKM data for this district
-            district_data = self.df_kecamatan[self.df_kecamatan['Kecamatan'] == district_name]
-            if not district_data.empty:
-                district_data = district_data.iloc[0]
+            for district in districts_data['features']:
+                district_name = district['properties']['name']
+                district_data = self.df_kecamatan[self.df_kecamatan['Kecamatan'] == district_name]
                 
-                # Calculate marker size based on total UMKM (scale it appropriately)
-                marker_size = max(15, min(50, np.sqrt(district_data['Total']) * 2))
+                if not district_data.empty:
+                    district_names.append(district_name)
+                    district_values.append(district_data.iloc[0]['Total'])
+            
+            # Create choropleth mapbox
+            fig = px.choropleth_mapbox(
+                geojson=districts_data,
+                locations=district_names,
+                color=district_values,
+                color_continuous_scale="Viridis",
+                range_color=(0, max(district_values)),
+                mapbox_style="open-street-map",
+                zoom=10,
+                center={"lat": -6.3097, "lon": 106.7047},
+                opacity=0.7,
+                labels={'color': 'Jumlah UMKM'},
+                title="Peta Distribusi UMKM Tangerang Selatan"
+            )
+            
+            # Add markers for each district
+            for district in districts_data['features']:
+                district_name = district['properties']['name']
+                district_data = self.df_kecamatan[self.df_kecamatan['Kecamatan'] == district_name]
                 
-                # Create color based on UMKM density
-                color_intensity = district_data['Total'] / self.df_kecamatan['Total'].max()
-                color = f'rgba(255, {int(255 * (1 - color_intensity))}, 0, 0.8)'
+                if not district_data.empty:
+                    district_data = district_data.iloc[0]
+                    center_coords = district['properties']['center']
+                    
+                    fig.add_trace(go.Scattermapbox(
+                        lat=[center_coords[1]],
+                        lon=[center_coords[0]],
+                        mode='markers+text',
+                        marker=dict(
+                            size=max(15, min(40, district_data['Total'] / 500)),
+                            color='white',
+                            opacity=0.9
+                        ),
+                        text=str(district_data['Total']),
+                        textfont=dict(size=12, color='black'),
+                        textposition='middle center',
+                        hovertext=f"<b>{district_name}</b><br>" +
+                                 f"Total UMKM: {district_data['Total']:,}<br>" +
+                                 f"Mikro: {district_data['Mikro']:,}<br>" +
+                                 f"Kecil: {district_data['Kecil']:,}",
+                        hoverinfo='text',
+                        name=district_name,
+                        showlegend=False
+                    ))
+            
+            fig.update_layout(
+                mapbox_style="open-street-map",
+                height=600,
+                margin=dict(l=0, r=0, t=60, b=0)
+            )
+            
+        except Exception as e:
+            # Fallback to scatter geo if choropleth fails
+            fig = go.Figure()
+            
+            # Define color palette for districts
+            color_palette = [
+                '#FF6B6B',  # Red
+                '#4ECDC4',  # Teal
+                '#45B7D1',  # Blue
+                '#96CEB4',  # Green
+                '#FFEAA7',  # Yellow
+                '#DDA0DD',  # Plum
+                '#98D8C8'   # Mint
+            ]
+            
+            for i, district in enumerate(districts_data['features']):
+                district_name = district['properties']['name']
+                district_data = self.df_kecamatan[self.df_kecamatan['Kecamatan'] == district_name]
                 
-                # Add marker for this district
-                fig.add_trace(go.Scattermapbox(
-                    lon=[lon],
-                    lat=[lat],
-                    mode='markers',
-                    marker=dict(
-                        size=marker_size,
-                        color=color,
-                        opacity=0.8
-                    ),
-                    text=f"<b>{district_name}</b><br>" +
-                         f"Total UMKM: {district_data['Total']:,}<br>" +
-                         f"Mikro: {district_data['Mikro']:,}<br>" +
-                         f"Kecil: {district_data['Kecil']:,}",
-                    name=district_name,
-                    hoverinfo='text',
-                    showlegend=False
-                ))
+                if not district_data.empty:
+                    district_data = district_data.iloc[0]
+                    base_color = color_palette[i % len(color_palette)]
+                    
+                    # Convert hex to RGB
+                    hex_color = base_color.lstrip('#')
+                    rgb = tuple(int(hex_color[i:i+2], 16) for i in (0, 2, 4))
+                    
+                    # Add polygon for district boundary
+                    if district['geometry']['type'] == 'Polygon':
+                        coords = district['geometry']['coordinates'][0]
+                        lons = [coord[0] for coord in coords]
+                        lats = [coord[1] for coord in coords]
+                        
+                        fig.add_trace(go.Scattergeo(
+                            lon=lons,
+                            lat=lats,
+                            mode='lines',
+                            fill='toself',
+                            fillcolor=f'rgba({rgb[0]}, {rgb[1]}, {rgb[2]}, 0.3)',
+                            line=dict(color='white', width=2),
+                            name=district_name,
+                            hoverinfo='skip',
+                            showlegend=False
+                        ))
 
-        # Update layout with map styling
-        fig.update_layout(
-            mapbox=dict(
-                style='open-street-map',
-                center=dict(lon=106.7047, lat=-6.3097),
-                zoom=11
-            ),
-            title="Peta Distribusi UMKM Tangerang Selatan<br><sub>Ukuran dan warna marker menunjukkan jumlah UMKM per kecamatan</sub>",
-            showlegend=False,
-            margin=dict(l=0, r=0, t=60, b=0),
-            height=600
-        )
+                    # Add center marker with UMKM count
+                    center_coords = district['properties']['center']
+                    marker_size = max(20, min(60, (district_data['Total'] / 1000) * 15))
+                    
+                    fig.add_trace(go.Scattergeo(
+                        lon=[center_coords[0]],
+                        lat=[center_coords[1]],
+                        mode='markers+text',
+                        marker=dict(
+                            size=marker_size,
+                            color=base_color,
+                            opacity=0.8,
+                            line=dict(color='white', width=2)
+                        ),
+                        text=str(district_data['Total']),
+                        textfont=dict(size=12, color='white'),
+                        textposition='middle center',
+                        hovertext=f"<b>{district_name}</b><br>" +
+                                 f"Total UMKM: {district_data['Total']:,}<br>" +
+                                 f"Mikro: {district_data['Mikro']:,}<br>" +
+                                 f"Kecil: {district_data['Kecil']:,}",
+                        hoverinfo='text',
+                        name=district_name,
+                        showlegend=True
+                    ))
+
+            # Update layout with map styling
+            fig.update_layout(
+                geo=dict(
+                    projection_type='mercator',
+                    showland=True,
+                    landcolor='rgb(243, 243, 243)',
+                    coastlinecolor='rgb(204, 204, 204)',
+                    showcoastlines=True,
+                    showocean=True,
+                    oceancolor='rgb(230, 245, 255)',
+                    showcountries=True,
+                    countrycolor='rgb(204, 204, 204)',
+                    showsubunits=True,
+                    subunitcolor='rgb(217, 217, 217)',
+                    center=dict(lon=106.7047, lat=-6.3097),
+                    lonaxis=dict(range=[106.62, 106.78]),
+                    lataxis=dict(range=[-6.35, -6.25]),
+                    bgcolor='rgba(0,0,0,0)',
+                    resolution=50
+                ),
+                title="Peta Distribusi UMKM Tangerang Selatan<br><sub>Lingkaran menunjukkan jumlah UMKM per kecamatan</sub>",
+                showlegend=True,
+                legend=dict(
+                    orientation="v",
+                    yanchor="top",
+                    y=1,
+                    xanchor="left",
+                    x=1.02
+                ),
+                margin=dict(l=0, r=150, t=60, b=0),
+                height=600
+            )
         
         return dcc.Graph(figure=fig)
     
